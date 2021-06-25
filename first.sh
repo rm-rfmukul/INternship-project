@@ -6,7 +6,7 @@
 clear 
 
 echo "Press 1 for create the directory"  	
-select data in 2 
+select data in 1 
 do 
 	if [ "$data" == 1 ];
 	then
