@@ -10,7 +10,10 @@ echo "press 2 for create a file"
 echo "press 3 for install a package"
 echo "press 4 for reboot your system"
 echo "press 5 for Current Date and Time "
-echo "press 6 for create user "  	
+echo "press 6 for seach on google"
+echo "press 7 for create user and password"
+echo "press 8 for play song in current OS player"
+echo "press 9 to google search to get top 5 url"  	
 select data in 1 2 3 4 5 6 7 8 9
 do
 	#for create the directory
