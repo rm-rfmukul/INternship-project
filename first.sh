@@ -5,6 +5,7 @@
 
  
 
+<<<<<<< HEAD
 echo "Press 1 for create a directory" 
 echo "press 2 for create a file"
 echo "press 3 for install a package"
@@ -15,6 +16,12 @@ select data in 1 2 3 4 5 6 7
 do
 	echo "inside select" 
 	if [ "$data" == 1 ]
+=======
+echo "Press 1 for create the directory"  	
+select data in 1 
+do 
+	if [ "$data" == 1 ];
+>>>>>>> b94e825a7f85ae158ed3058b0e342e1968513262
 	then
 
 		echo "Enter directory name"
